@@ -344,7 +344,7 @@ class HomeScreen extends StatelessWidget {
                       ListView.builder(
                         itemBuilder: (context, index) {
                           return Container(
-                            margin: EdgeInsets.symmetric(horizontal: 32),
+                            margin: EdgeInsets.symmetric(horizontal: 32, vertical: 5),
                             padding: EdgeInsets.all(16),
                             decoration: BoxDecoration(
                                 color: Colors.white,
@@ -412,7 +412,7 @@ class HomeScreen extends StatelessWidget {
                           );
                         },
                         shrinkWrap: true,
-                        itemCount: 2,
+                        itemCount: 5,
                         padding: EdgeInsets.all(0),
                         controller: ScrollController(keepScrollOffset: false),
                       ),
@@ -440,7 +440,7 @@ class HomeScreen extends StatelessWidget {
                       ListView.builder(
                         itemBuilder: (context, index) {
                           return Container(
-                            margin: EdgeInsets.symmetric(horizontal: 32),
+                            margin: EdgeInsets.symmetric(horizontal: 32, vertical: 5),
                             padding: EdgeInsets.all(16),
                             decoration: BoxDecoration(
                                 color: Colors.white,
@@ -508,7 +508,7 @@ class HomeScreen extends StatelessWidget {
                           );
                         },
                         shrinkWrap: true,
-                        itemCount: 2,
+                        itemCount: 10,
                         padding: EdgeInsets.all(0),
                         controller: ScrollController(keepScrollOffset: false),
                       ),
